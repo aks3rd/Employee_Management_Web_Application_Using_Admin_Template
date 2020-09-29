@@ -1,0 +1,129 @@
+.mainLayout
+{
+width:98%;
+min-height:880px;
+border:1px solid black;
+padding:5px;
+}
+.header
+{
+width:100%;
+min-height:90px;
+border-bottom:1px solid gray;
+}
+.componyHeading
+{
+font-size:30pt;
+font-family:verdana;
+}
+.contentWarraper
+{
+width:100;
+min-height:680px;
+}
+.navigation
+{
+float:left;
+width:20%;
+min-height:670px;
+padding:5px;
+}
+.navigation a
+{
+font-size:20pt;
+}
+.content
+{
+float:right;
+width:78%;
+min-height:670px;
+border-left:1px solid green;
+padding:5px;
+}
+.footer
+{
+text-align:center;
+width:100%;
+min-height:50px;
+border-top:1px solid black;
+font-weight:bold;
+padding:5px;
+}
+.gridTableSection
+{
+height:400px;
+overflow-y:auto;
+}
+.gridTableSection thead th 
+{ 
+position: sticky; 
+top: 0; 
+}
+.studentViewGrid
+{
+cursor:pointer;
+}
+.selectedRow
+{
+background:black;
+color:white;
+}
+.unselectedRow
+{
+background:white;
+color:black;
+}
+.searched
+{
+color:black;
+}
+.unsearched
+{
+color:red;
+}
+.studentDetailsSection
+{
+width:78%;
+min-height:500px;
+border:1px solid black;
+display:none;
+}
+.studentAddSection
+{
+width:78%;
+min-height:500px;
+border:1px solid black;
+display:none;
+}
+.studentEditSection
+{
+width:78%;
+min-height:500px;
+border:1px solid black;
+display:none;
+}
+.studentDeleteSection
+{
+width:78%;
+min-height:500px;
+border:1px solid black;
+display:none;
+}
+.displayNone
+{
+width:78%;
+min-height:500px;
+border:1px solid black;
+display:none;
+}
+.displayBlock
+{
+width:78%;
+min-height:500px;
+border:1px solid black;
+display:block;
+}
+.errorSection
+{
+color:red;
+}

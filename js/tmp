@@ -1,0 +1,13 @@
+eval(
+"sno=1;
+for("+cmd+") 
+{ 
+if(e==0)
+clone=tr;
+else 
+clone=temp.cloneNode(true); 
+for(k of clone.children)
+{
+for(key of keys)
+{
+if(k.textContent.includes('{{{e.'+key+'}}}')) k.textContent=k.textContent.replace('{{{e.'+key+'}}}',employees[e][key]);if(k.textContent.includes('{{{e}}}')) k.textContent=k.textContent.replace('{{{e}}}',sno);}}tbody.appendChild(clone);sno++;}");
